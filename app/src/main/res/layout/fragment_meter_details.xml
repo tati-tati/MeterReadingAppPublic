@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_show_meter_history_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="История"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_edit_meter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Редактировать" />
+
+        <Button
+            android:id="@+id/btn_delete_meter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Удалить" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/curr_meter_number"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Счетчик № 123"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="Дата показания"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/curr_last_meterReading_date"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:gravity="center"
+            android:text="12.01.2009"
+            android:textAlignment="textStart" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="Показание"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/curr_last_meterReading_value"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:gravity="center"
+            android:text="135.98"
+            android:textAlignment="textStart" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="Новое показание"
+            android:textAlignment="textStart" />
+
+        <EditText
+            android:id="@+id/input_meter_new_value"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/btn_open_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_menu_camera" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_send_meter_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Заявить" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/service_name"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="Service Name"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_edit" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:text="Телефон"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/service_phone"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:text="8 (812) 2001010"
+            android:textAlignment="textStart" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:text="Email"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/service_email"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:text="service@service.com"
+            android:textAlignment="textStart" />
+
+    </LinearLayout>
+
+</LinearLayout>
